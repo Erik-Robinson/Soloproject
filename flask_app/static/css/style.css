@@ -1,0 +1,147 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+button {
+    color
+}
+
+nav {
+    color: white;
+    margin-top: 10px;
+}
+/* dashboard */
+body {
+    background-color: #111827;
+}
+
+#table {
+    margin-top: 50px;
+    border: 1px solid white;
+}
+
+.img-div {
+    height: 50px;
+    width: 50%;
+}
+#image_of_the_day {
+    width: 80%;
+    height: 500px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+.nasa {
+    text-align: center;
+}
+
+.description-div {
+    border: 2px solid white;
+    width: 80%;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0.1rem auto 1rem;
+    color: rgb(224, 209, 0);
+}
+
+h2 {
+    color: white;
+}
+
+.pick {
+    color: rgb(255, 251, 0);
+}
+
+.title-section {
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+    width: 80% !important;
+}
+
+.events, h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+    animation: flicker 1.5s infinite alternate;
+    color: rgb(204, 204, 204);
+}
+
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(255, 251, 0),
+        0 0 80px rgb(255, 251, 0),
+        0 0 90px rgb(255, 251, 0),
+        0 0 100px rgb(255, 251, 0),
+        0 0 150px rgb(255, 251, 0);
+    }
+    20%, 24%, 55% {       
+    text-shadow: none;
+    }
+}
+
+hr {
+    background-color: rgb(121, 121, 121);
+}
+
+#etitle {
+    text-align: center;
+    color: yellow;
+    font-size: 2.5em;
+}
+
+.event_info {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.rsvpbutton {
+    margin-left: 48%;
+    height: 40px;
+}
+
+.editevent {
+    font-size: 2.5em;
+    margin-left: 6%;
+}
+
+/* log/reg */
+.form-control {
+    max-width: 50%;
+}
+
+#login {
+    width: 40%;
+    background-color: #111827;
+}
+
+#register {
+    width: 40%;
+    flex: 1;
+    margin-right: 20px;
+}
+
+#main {
+    display: flex;
+    margin-top: 150px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: #111827;
+}
+
+#form {
+    border: 2px solid gray;
+}
+
+.mainheading {
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 5em;
+}
