@@ -40,7 +40,7 @@ body {
     padding-top: 10px;
     text-align: center;
     margin: 0.1rem auto 1rem;
-    color: rgb(224, 209, 0);
+    color: rgb(255,193,7);
 }
 
 h2 {
@@ -48,7 +48,7 @@ h2 {
 }
 
 .pick {
-    color: rgb(255, 251, 0);
+    color: rgb(255,193,7);
 }
 
 .title-section {
